@@ -24,8 +24,8 @@ set encoding=utf-8
 
 " Whitespace
 set wrap
-set textwidth=80
-set formatoptions=tcqrn1
+set textwidth=150
+autocmd FileType * set formatoptions-=cro
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
